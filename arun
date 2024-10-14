@@ -1,0 +1,69 @@
+echo"----------Marksheet----------"
+echo "enter student's details:"
+echo"------------------------------------------"
+echo "enter student name:"
+read n1
+echo "enter student roll no:"
+read n2
+echo "enter marks of first subject (out of 100):"
+reas s1
+echo "enter marks of second subject (out of 100):"
+read s2
+echo "enter marks of third subject (out of 100):"
+read s3
+echo "student's name: $n1"
+echo "student's roll no: $n2"
+echo "marks of first subject: $s1"
+echo "marks of second subject: $s2"
+echo "marks of third subject: $s3"
+sum=$((s1+s2+s3));
+echo "student's total marks is : $sum (out of 100)";
+per=$((sum*100/300))
+echo "students percentage is: $per%"
+avg=$((sum/3));
+if [$avg-gt-91]&&[ $avg-1t-100]
+then
+echo" student's grade is A+";
+else
+if [$avg-gt-81]&&[ $avg-1t-90]
+then
+echo" student's grade is A";
+else
+if [$avg-gt-71]&&[ $avg-1t-80]
+then
+echo" student's grade is B+";
+else
+if [$avg-gt-61]&&[ $avg-1t-70]
+then
+echo" student's grade is B ";
+else
+if [$avg-gt-51]&&[ $avg-1t-60]
+then
+echo" student's grade is C";
+else
+if [$avg-gt-41]&&[ $avg-1t-50]
+then
+echo" student's grade is D";
+else
+echo "student's grade is F";
+fi
+fi
+----------marksheet----------
+enter student's details:
+-----------------------------
+enter student's name:
+arun chaudhary
+enter student's roll no: 
+2342010118
+enter marks of first subject (out of 100):
+67
+enter marks os second subject (out of 100):
+79
+enter marks of thirs subject:
+87
+
+
+
+
+
+
